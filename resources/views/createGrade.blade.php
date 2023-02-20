@@ -106,24 +106,24 @@
                         </div>
 
                         <div class="gradeContainerForm">
-                            <label id="inputGroup-sizing-default"><h2>Lenguage</h2></label>
+                            <label id="inputGroup-sizing-default"><h2>Literature</h2></label>
                             <h3>First Trimester</h3>
                             <div class="trimestralContainer">
-                                <input type="text" name="lenguage1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage1">
-                                <input type="text" name="lenguage2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage2">
-                                <input type="text" name="lenguage3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage3">
+                                <input type="text" name="literature1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature1">
+                                <input type="text" name="literature2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature2">
+                                <input type="text" name="literature3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature3">
                             </div>
                             <h3>Second Trimester</h3>
                             <div class="trimestralContainer">
-                                <input type="text" name="lenguage4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage4">
-                                <input type="text" name="lenguage5" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage5">
-                                <input type="text" name="lenguage6" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage6">
+                                <input type="text" name="literature4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature4">
+                                <input type="text" name="literature5" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature5">
+                                <input type="text" name="literature6" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature6">
                             </div>
                             <h3>Third Trimester</h3>
                             <div class="trimestralContainer">
-                                <input type="text" name="lenguage7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage7">
-                                <input type="text" name="lenguage8" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage8">
-                                <input type="text" name="lenguage9" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Lenguage9">
+                                <input type="text" name="literature7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature7">
+                                <input type="text" name="literature8" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature8">
+                                <input type="text" name="literature9" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Literature9">
                             </div>
                         </div>
 

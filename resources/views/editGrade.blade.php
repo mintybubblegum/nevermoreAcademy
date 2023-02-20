@@ -105,24 +105,24 @@
                         </div>
 
                         <div class="gradeContainerForm">
-                            <label id="inputGroup-sizing-default"><h2>Lenguage</h2></label>
+                            <label id="inputGroup-sizing-default"><h2>Literature</h2></label>
                             <h3>First Trimester</h3>
                             <div class="trimestralContainer">
-                                <input type="text" name="lenguage1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage1}}">
-                                <input type="text" name="lenguage2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage2}}">
-                                <input type="text" name="lenguage3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage3}}">
+                                <input type="text" name="literature1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature1}}">
+                                <input type="text" name="literature2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature2}}">
+                                <input type="text" name="literature3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature3}}">
                             </div>
                             <h3>Second Trimester</h3>
                             <div class="trimestralContainer">
-                                <input type="text" name="lenguage4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage4}}">
-                                <input type="text" name="lenguage5" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage5}}">
-                                <input type="text" name="lenguage6" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage6}}">
+                                <input type="text" name="literature4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature4}}">
+                                <input type="text" name="literature5" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature5}}">
+                                <input type="text" name="literature6" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature6}}">
                             </div>
                             <h3>Third Trimester</h3>
                             <div class="trimestralContainer">
-                                <input type="text" name="lenguage7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage7}}">
-                                <input type="text" name="lenguage8" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage8}}">
-                                <input type="text" name="lenguage9" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->lenguage9}}">
+                                <input type="text" name="literature7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature7}}">
+                                <input type="text" name="literature8" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature8}}">
+                                <input type="text" name="literature9" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="{{$grade->literature9}}">
                             </div>
                         </div>
 

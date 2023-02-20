@@ -71,7 +71,7 @@ class CRUDGradeTest extends TestCase
             'history1'=> 'history1',
             'geography1'=> 'geography1',
             'english1'=> 'english1',
-            'lenguage1'=> 'lenguage1',
+            'literature1'=> 'literature1',
         ]);
         $this->assertCount(1, Grade::all());
 
@@ -83,7 +83,7 @@ class CRUDGradeTest extends TestCase
             'history1'=> 'history1',
             'geography1'=> 'geography1',
             'english1'=> 'english1',
-            'lenguage1'=> 'lenguage1',
+            'literature1'=> 'literature1',
         ]);
         $this->assertCount(1, Grade::all());
     }

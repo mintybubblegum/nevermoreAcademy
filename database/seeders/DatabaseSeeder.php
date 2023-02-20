@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             'history'=> '6',
             'geography'=> '6',
             'english'=> '6',
-            'lenguage'=> '6',
+            'literature'=> '6',
         ]);
         
         Grade::factory(10)->create();

@@ -65,17 +65,17 @@
             </div>
 
             <div>
-                <h1>Lenguage</h1>
+                <h1>Literature</h1>
                 <ul>
-                    <li>{{ $grade->lenguage1 }}</li>
-                    <li>{{ $grade->lenguage2 }}</li>
-                    <li>{{ $grade->lenguage3 }}</li>
-                    <li>{{ $grade->lenguage4 }}</li>
-                    <li>{{ $grade->lenguage5 }}</li>
-                    <li>{{ $grade->lenguage6 }}</li>
-                    <li>{{ $grade->lenguage7 }}</li>
-                    <li>{{ $grade->lenguage8 }}</li>
-                    <li>{{ $grade->lenguage9 }}</li>
+                    <li>{{ $grade->literature1 }}</li>
+                    <li>{{ $grade->literature2 }}</li>
+                    <li>{{ $grade->literature3 }}</li>
+                    <li>{{ $grade->literature4 }}</li>
+                    <li>{{ $grade->literature5 }}</li>
+                    <li>{{ $grade->literature6 }}</li>
+                    <li>{{ $grade->literature7 }}</li>
+                    <li>{{ $grade->literature8 }}</li>
+                    <li>{{ $grade->literature9 }}</li>
                 </ul>
             </div>
 
