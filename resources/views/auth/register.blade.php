@@ -80,7 +80,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="currentTerm">{{ __('currentTerm') }}   
+                            <label for="currentTerm">{{ __('Current Term') }}   
                             </label>
 
                             <div>
@@ -95,7 +95,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="img">{{ __('img') }}   
+                            <label for="img">{{ __('Image') }}   
                             </label>
 
                             <div>
