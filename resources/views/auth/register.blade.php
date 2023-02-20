@@ -79,6 +79,24 @@
                             </div>
                         </div>
 
+                        <div class="row mb-3">
+                            <label for="currentTerm">{{ __('Current Term') }}</label>
+
+                            <div>
+                                <input id="currentTerm" type="string" class="form-control @error('currentTerm') is-invalid @enderror" name="currentTerm" value="{{ old('currentTerm') }}" required autocomplete="currentTerm" autofocus>
+
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="password-confirm">{{ __('Image') }}</label>
+
+                            <div>
+                                <input id="image" type="string" class="form-control" name="image">
+                            </div>
+                        </div>
+
+
                         <div class="row mb-0">
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary">
