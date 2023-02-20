@@ -51,15 +51,15 @@ return new class extends Migration
             $table->integer('english7')->nullable();
             $table->integer('english8')->nullable();
             $table->integer('english9')->nullable();
-            $table->integer('lenguage1')->nullable();
-            $table->integer('lenguage2')->nullable();
-            $table->integer('lenguage3')->nullable();
-            $table->integer('lenguage4')->nullable();
-            $table->integer('lenguage5')->nullable();
-            $table->integer('lenguage6')->nullable();
-            $table->integer('lenguage7')->nullable();
-            $table->integer('lenguage8')->nullable();
-            $table->integer('lenguage9')->nullable();
+            $table->integer('literature1')->nullable();
+            $table->integer('literature2')->nullable();
+            $table->integer('literature3')->nullable();
+            $table->integer('literature4')->nullable();
+            $table->integer('literature5')->nullable();
+            $table->integer('literature6')->nullable();
+            $table->integer('literature7')->nullable();
+            $table->integer('literature8')->nullable();
+            $table->integer('literature9')->nullable();
 
             $table->unsignedBigInteger('user_id')->nullable();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('set null');

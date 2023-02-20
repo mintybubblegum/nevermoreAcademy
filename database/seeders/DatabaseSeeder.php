@@ -22,10 +22,17 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        /*Grade::factory()->create([
+            'maths'=> '6',
+            'history'=> '6',
+            'geography'=> '6',
+            'english'=> '6',
+            'literature'=> '6',
+        ]);*/
         
         User::factory()->create(['name'=> 'ales', 'surname'=> 'addams', 'email'=> 'ales@nevermore.com', 'currentTerm'=> '2022-2023', 'img'=> 'img/outcast01.PNG', 'isTeacher'=>true]);
         User::factory()->create(['name'=> 'macarrones', 'surname'=> 'addams', 'email'=> 'macarrones@nevermore.com','currentTerm'=> '2022-2023','img'=> 'img/outcast01.PNG', 'isTeacher'=> false]);
-        Grade::factory()->create();
+        Grade::factory()->create(); 
 
         User::factory()->create([
             'name'=> 'Wednesday',
