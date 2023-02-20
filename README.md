@@ -1,4 +1,4 @@
-<div align="center"><img src="/public/img/headerCell.PNG" width="400"/></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/116546588/220184665-6d09e393-a07a-47a3-a9a6-d0cbc5f2feda.png" width="400"/></div>
 
 <h2>1. Project description:</h2>
 <ul>
@@ -40,7 +40,7 @@
 
 <h2>4. Project Demo (Preview)</h2>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
-<img style="width:400px; height:250px; margin:12px" src="" alt="Preliminary project demo"/>
+<img style="width:400px; height:250px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220184878-847b01aa-c777-4907-880a-b7ec89afadb2.gif" alt="Preliminary project demo"/>
 </div>
 
 
@@ -51,12 +51,24 @@
 
 <h2>6. Atomic Design</h2> 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
-<img style="width:250px; height:400px; margin:12px" src="" alt="Atomic Design"/>
+<img style="width:250px; height:400px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220184970-ead0de28-4f28-48f7-9a37-316cfac777cd.png" alt="Atomic Design"/>
 </div>
 
 <h2>7. Mockup</h2> 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
-<img style="width:600px; height:500px; margin:12px" src="" alt="PFinal Design "/>
+<img style="width:500px; height:380px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220185148-1d549ae7-b90d-4db5-8f91-8d60a45a7832.png" alt="Home Blade"/>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
+<img style="width:500px; height:380px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220185651-4ee05f8a-0e48-4aa6-80c9-3874e8e1291b.png" alt="Create User Blade"/>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
+<img style="width:500px; height:380px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220185779-51fb7d67-dcc0-4b3c-ab47-eec69c5a49a7.png" alt="Show User Blade"/>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
+<img style="width:300px; height:500px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220185965-c1fb837b-70f3-4924-a846-0bb2fe59fa01.png" alt="Show User Blade"/>
 </div>
 
 <h2>8. Stacks</h2>
@@ -74,11 +86,11 @@
 <li>PHP (Minimum, version 7.4).</li>
 <li>Composer & Laravel Installed and updated to latest version.</li>
 <li>XAMPP/LAMPP Installed.</li>
-<li>MySQL.</li>
+<li>MySQL.</li><br>
 
 <h3>To install our project</h3>
 <li>Open IDE</li>
-<li>Copy in the terminal: "git clone https://github.com/AlesiaCoder/nevermoreAcademy.git ".</li>
+<li>Copy in the terminal: git clone https://github.com/AlesiaCoder/nevermoreAcademy.git</li>
 <li>Type in the IDE terminal: <b>npm install</b> and press intro.</li>
 <li>In the IDE run <b>git clone</b> command, an paste the HTTPS.</li>
 <li>Write in the IDE terminal the command: <b>composer update</b>.</li>
@@ -88,16 +100,16 @@
 <li>Type in the IDE terminal: <b>php artisan migrate:fresh --seed</b> and press intro.</li>
 <li>Type in the IDE terminal: <b>npm run dev</b> and press intro. Then open another terminal in the IDE without closing the previous one</li>
 <li>Type in the IDE terminal: <b>php artisan migrate</b> and press intro</li>
-<li>Type in the IDE terminal: <b>php artisan serve</b> and press intro.</li>
+<li>Type in the IDE terminal: <b>php artisan serve</b> and press intro.</li><br>
 
 <h3>Warning & Testing</h3>
 <ol>
 <li><b>Important</b>: If we then need to run more commands in the IDE, we'll open a third terminal without closing the previous two.</li>
-<li><b>Test</b>: Run in the IDE <b>php artisan test</b> & <b>vendor/bin/phpunit</b> where it should return the following result:<b> 5 passed</b> and <b> OK (5 test, 14 assertions)</b></li>
+<li><b>Test</b>: Run in the IDE <b>php artisan test</b> & <b>vendor/bin/phpunit</b> where it should return the following result:<b> 5 passed</b> and <b> OK (5 test, 12 assertions)</b></li>
 </ol>
 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
-<img style="width:600px; height:500px; margin:12px" src="" alt="finalTest"/>
+<img style="width:600px; height:320px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220187613-bf5fecdc-a4f9-411a-9370-9338fa384010.PNG" alt="finalTest"/>
 </div>
 
 <h2>10. Methodology:</h2>
@@ -108,11 +120,14 @@
 <li>Agile with SCRUM</li>
 </ul>
 
-
 <h2>11. Next Steps</h2>
 <ul>
 <li>Continue to implement the CRUD.</li>
 <li>Continue implementing the design.</li>
 <li>Continue implementing functionalities.</li>
 </ul>
+
+
+
+
 
