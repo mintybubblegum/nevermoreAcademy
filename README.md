@@ -1,7 +1,4 @@
-<h1>Readme in process<h1>
-    <img style="width:400px; height:250px; margin:12px" src="https://user-images.githubusercontent.com/116546588/213402788-585bfa53-121f-42ac-8058-15d968106c40.gif" alt="Preliminary project demo"/>
-    
-<h1>Project: "Nevermore Academy"</h1>
+<div align="center"><img src="/public/img/headerCell.PNG" width="400"/></div>
 
 <h2>1. Project description:</h2>
 <ul>
@@ -13,14 +10,14 @@
 
 <h2>2. User stories:</h2>
 
-<h3>2.2 User Story (User):</h3>
+<h3>2.1 User Story (User):</h3>
 <ul>
 <li>Being able to register in the app as user.</li>
 <li>See the subjects and their respective exam grades.</li>
 <li>See the average grade (trimestral and final).</li>
 </ul>
 
-<h3>2.3 User Story (Admin):</h3>
+<h3>2.2 User Story (Admin):</h3>
 <ul>
 <li>Enter app as admin.</li>
 <li>View student list with trimestral average.</li>
@@ -47,7 +44,7 @@
 </div>
 
 
-<h2>5. Initial Sketch</h2>
+<h2>5. Sketch</h2>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
 <img style="width:600px; height:400px; margin:12px" src="https://user-images.githubusercontent.com/116545731/216052528-26ba1e22-fbeb-4e5d-ba67-d899dfff8117.png" alt="initialSketch"/>
 </div>
@@ -57,7 +54,7 @@
 <img style="width:250px; height:400px; margin:12px" src="" alt="Atomic Design"/>
 </div>
 
-<h2>7. Final Design</h2> 
+<h2>7. Mockup</h2> 
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
 <img style="width:600px; height:500px; margin:12px" src="" alt="PFinal Design "/>
 </div>
@@ -73,17 +70,16 @@
 </ul>
 
 <h2>9. Required:</h2>
-<li>Composer & Laravel Installed.</li>
-<li>XAMPP/LAMPP Installed.</li>
 <li>NPM Installed.</li>
-<li>MySQL.</li>
-<li>PHP Artisan Serve.</li>
 <li>PHP (Minimum, version 7.4).</li>
+<li>Composer & Laravel Installed and updated to latest version.</li>
+<li>XAMPP/LAMPP Installed.</li>
+<li>MySQL.</li>
 
-<h3>To install Project</h3>
-<li>Open the IDE</li>
+<h3>To install our project</h3>
+<li>Open IDE</li>
 <li>In the link .. the CODE tab.</li>
-<li>Within the CODE tab copy the link that appears in HTTPS.</li>
+<li>Copy the link that appears in HTTPS.</li>
 <li>In the IDE run <b>git clone</b> command, an paste the HTTPS.</li>
 <li>Write in the IDE terminal the command: <b>composer install </b>or <b>composer update</b> (If you have previously installed composer), and press intro.</li>
 <li>Write in the IDE terminal the command: <b>composer create-project --prefer-dist</b> and press intro.</li>
@@ -112,6 +108,7 @@
 <ul>
 <li>Mob programming.</li>
 <li>Pair programming.</li>
+<li>Solo programming.</li>
 <li>Agile with SCRUM</li>
 </ul>
 
