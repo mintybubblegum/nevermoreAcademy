@@ -38,11 +38,10 @@
 - [Sandra León](https://github.com/sandraldr27) - Developer
 
 
-<h2>4. Project Demo (Preview)</h2>
+<h2>4. Project Demo (Preview - In Develpoment)</h2>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
-<img style="width:400px; height:250px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220184878-847b01aa-c777-4907-880a-b7ec89afadb2.gif" alt="Preliminary project demo"/>
+<img style="width:550px; height:380px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220195272-91a02282-4e7e-4d53-88c0-8fc9cfee0e0d.PNG" alt="Preliminary project demo"/>
 </div>
-
 
 <h2>5. Sketch</h2>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
@@ -122,9 +121,11 @@
 
 <h2>11. Next Steps</h2>
 <ul>
-<li>Continue to implement the CRUD.</li>
+<li>Implement the Drag & Drop.</li>
 <li>Continue implementing the design.</li>
-<li>Continue implementing functionalities.</li>
+<li>Continue implementing the calculation of the average of the grades.</li>
+<li>Adapt the view of the teacher and student show.</li>
+<li>Add functionality to the trimester closing buttons</li>
 </ul>
 
 
