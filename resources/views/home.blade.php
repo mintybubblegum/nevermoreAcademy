@@ -99,6 +99,7 @@
 
     @if(Auth::check())
         @if(Auth::check() && Auth::user()->isTeacher)
+        <a href="{{ route('register') }}" class="btn btn-primary">Register a new user</a>
         <button class="createButton">
             <a href="{{ route('createGrade') }}" style="text-decoration:none">
                 <div class="textCreateButton"> NEW GRADE </div>
