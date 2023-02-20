@@ -79,6 +79,36 @@
                             </div>
                         </div>
 
+                        <div class="row mb-3">
+                            <label for="currentTerm">{{ __('currentTerm') }}   
+                            </label>
+
+                            <div>
+                                <input id="currentTerm" type="text" class="form-control @error('currentTerm') is-invalid @enderror" name="currentTerm" value="{{ old('currentTerm') }}" required autocomplete="currentTerm" autofocus>
+
+                                @error('currentTerm')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="img">{{ __('img') }}   
+                            </label>
+
+                            <div>
+                                <input id="img" type="text" class="form-control @error('img') is-invalid @enderror" name="img" value="{{ old('img') }}" required autocomplete="img" autofocus>
+
+                                @error('img')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
                         <div class="row mb-0">
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary">
