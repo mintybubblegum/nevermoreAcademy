@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
         
         User::factory()->create(['name'=> 'ales', 'surname'=> 'addams', 'email'=> 'ales@nevermore.com', 'currentTerm'=> '2022-2023', 'img'=> 'img/outcast01.PNG', 'isTeacher'=>true]);
         User::factory()->create(['name'=> 'macarrones', 'surname'=> 'addams', 'email'=> 'macarrones@nevermore.com','currentTerm'=> '2022-2023','img'=> 'img/outcast01.PNG', 'isTeacher'=> false]);
-        Grade::factory()->create(); 
+        Grade::factory()->create();
 
         User::factory()->create([
             'name'=> 'Wednesday',
