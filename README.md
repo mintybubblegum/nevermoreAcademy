@@ -20,7 +20,7 @@
 <li>See the average grade (trimestral and final).</li>
 </ul>
 
-<h3>2.3 User Story (Administrator):</h3>
+<h3>2.3 User Story (Admin):</h3>
 <ul>
 <li>Enter app as admin.</li>
 <li>View student list with trimestral average.</li>
@@ -34,13 +34,11 @@
 
 <h2>3. Fullstack Developer Team</h2>
 
-<ul>
-<li>Veronika Komarova https://github.com/VeronikaKoma</li> 
-<li>Noa Trujillo https://github.com/mintybubblegum</li>
-<li>Alesia Baldeon https://github.com/AlesiaCoder</li>
-<li>Natalia Palomo https://github.com/Nataliaplm</li> 
-<li>Sandra León https://github.com/sandraldr27</li>   
-</ul>
+- [Natalia Palomo](https://github.com/Nataliaplm) - SCRUM Master
+- [Veronika Komarova](https://github.com/VeronikaKoma) - Product Owner
+- [Noa Trujillo Zamora](https://github.com/mintybubblegum) - Developer
+- [Alesia Baldeon](https://github.com/AlesiaCoder) - Developer
+- [Sandra León](https://github.com/sandraldr27) - Developer
 
 
 <h2>4. Project Demo (Preview)</h2>
