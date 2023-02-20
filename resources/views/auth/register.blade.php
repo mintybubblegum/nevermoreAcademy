@@ -30,7 +30,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <label for="name">{{ __('Surname') }}</label>
+                            <label for="surname">{{ __('Surname') }}</label>
 
                             <div>
                                 <input id="surname" type="text" class="form-control @error('surname') is-invalid @enderror" name="surname" value="{{ old('surname') }}" required autocomplete="surname" autofocus>
@@ -83,16 +83,27 @@
                             <label for="currentTerm">{{ __('Current Term') }}</label>
 
                             <div>
-                                <input id="currentTerm" type="string" class="form-control @error('currentTerm') is-invalid @enderror" name="currentTerm" value="{{ old('currentTerm') }}" required autocomplete="currentTerm" autofocus>
+                                <input id="currentTerm" type="text" class="form-control @error('currentTerm') is-invalid @enderror" name="currentTerm" value="{{ old('currentTerm') }}" required autocomplete="currentTerm" autofocus>
 
+                                @error('currentTerm')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                         </div>
 
                         <div class="row mb-3">
-                            <label for="password-confirm">{{ __('Image') }}</label>
+                            <label for="img">{{ __('Image') }}</label>
 
                             <div>
-                                <input id="image" type="string" class="form-control" name="image">
+                                <input id="img" type="text" class="form-control @error('img') is-invalid @enderror" name="img" value="{{ old('img') }}" required autocomplete="img" autofocus>
+
+                                @error('img')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                         </div>
 

@@ -24,12 +24,32 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         User::factory()->create([
+            'name'=> 'ales',
+            'surname'=> 'addams',
+            'email'=> 'ales@nevermore.com',
+            'currentTerm' => '2022-2023',
+            'img' => 'img/outcast08.PNG',
+            'isTeacher'=>true
+        ]);
+        
+        User::factory()->create([
+            'name'=> 'macarrones',
+            'surname'=> 'addams',
+            'email'=> 'macarrones@nevermore.com',
+            'currentTerm' => '2022-2023',
+            'img' => 'img/outcast08.PNG',
+            'isTeacher'=> false
+        ]);
+
+        Grade::factory()->create();
+
+        /*User::factory()->create([
             'name' => 'Wednesday',
             'surname' => 'Addams',
             'email' => 'wednesdayaddams@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast01.png',
-            'isTeacher' => '0',
+            'isTeacher' => false,
             ]);
     
         User::factory()->create([
@@ -38,7 +58,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'enidsinclair@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast07.PNG',
-            'isTeacher' => '0',
+            'isTeacher' => false,
             ]);    
     
         User::factory()->create([
@@ -47,7 +67,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'xavierthorpe@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast03.PNG',
-            'isTeacher' => '0',
+            'isTeacher' => false,
             ]);   
     
         User::factory()->create([
@@ -56,7 +76,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'biancabarclay@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast02.PNG',
-            'isTeacher' => '0',
+            'isTeacher' => false,
             ]);        
     
         User::factory()->create([
@@ -65,7 +85,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'eugeneotinger@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast04.PNG',
-            'isTeacher' => '0',
+            'isTeacher' => false,
             ]);  
     
         User::factory()->create([
@@ -74,7 +94,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'ajaxpetropolus@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast05.PNG',
-            'isTeacher' => '0',
+            'isTeacher' => false,
             ]); 
     
         User::factory()->create([
@@ -83,7 +103,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'yokotanaka@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast06.PNG',
-            'isTeacher' => '0',
+            'isTeacher' => false,
             ]); 
     
         User::factory()->create([
@@ -92,12 +112,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'ignatiusitt@nevermoreacademy.com',
             'currentTerm' => '2022-2023',
             'img' => 'img/outcast08.PNG',
-            'isTeacher' => '0',
-            ]);        
-
-        User::factory()->create(['name'=> 'ales', 'surname'=> 'addams', 'email'=> 'ales@nevermore.com', 'isTeacher'=>true]);
-        User::factory()->create(['name'=> 'macarrones', 'surname'=> 'addams', 'email'=> 'macarrones@nevermore.com', 'isTeacher'=> false]);
-        User::factory(2)->create();
-        Grade::factory()->create();
+            'isTeacher' => false,
+            ]); */       
     }
 }
