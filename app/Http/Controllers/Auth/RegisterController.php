@@ -9,7 +9,7 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
-class RegisterController extends Controller
+class RegisterController extends Controller  
 {
     /*
     |--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ class RegisterController extends Controller
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'currentTerm' => ['required', 'string', 'max:255'],
-            'img' => ['required', 'string', 'max:255'],
+            'img' => ['required', 'string', 'max:255'],  
         ]);
     }
 
