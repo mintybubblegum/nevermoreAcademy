@@ -4,7 +4,7 @@
     <div class="createFormContainer">
         <div class="containerCreate">
             <div class="titleCreateForm">
-                <h1>Edit a Grade</h1>
+                <h1>Edit a Grade</h1> 
             </div>
             <div class="createFormBox">
                 <form class="justify-content-center" action="{{ route('storeGrade') }}" method="post">
