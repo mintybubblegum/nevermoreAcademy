@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
             'currentTerm'=> '2022-2023',
             'img'=> 'img/outcast01.PNG',
             'isTeacher'=> false,
-            ]);
+            ]);  
     
         User::factory()->create([
             'name'=> 'Enid',
