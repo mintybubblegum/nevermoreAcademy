@@ -1,0 +1,63 @@
+.py-4 {
+    background-image: url(../img/gothicPattern.png);
+    background-repeat: repeat; 
+}
+
+.gradeContainerShow {
+    margin: 20px auto;
+    max-width: 720px;
+    background-color: rgb(9.41176%, 0%, 18.82353%, 0.7)!important;
+    color: #EAA41C !important;
+    border-radius: 50px;
+    padding: 40px;
+    }
+
+    .studentPortrait {
+        text-align: center;
+        border-radius: 50px;
+        }
+
+    .studentPortrait img {
+        border-radius: 100px;
+    }
+
+.gradeContainerShow h2, .gradeContainerShow h3, .gradeContainerShow p {
+    text-align: center;
+}
+
+.gradeContainerShow p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.gradeContainerShow h2 {
+    font-size: 22px;
+}
+
+.gradeContainerShow h3 {
+    font-size: 18px;
+}
+
+.gradeInfoBoxShow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gradeTrimestralShow {
+    padding: 10px 20px;
+}
+
+
+
+.gradeTrimestralShow ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.gradeTrimestralShow ul li {
+    padding: 0 15px;
+}

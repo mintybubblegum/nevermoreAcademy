@@ -30,9 +30,8 @@ class DatabaseSeeder extends Seeder
             'literature'=> '6',
         ]);*/
         
-        User::factory()->create(['name'=> 'ales', 'surname'=> 'addams', 'email'=> 'ales@nevermore.com', 'currentTerm'=> '2022-2023', 'img'=> 'img/outcast01.PNG', 'isTeacher'=>true]);
-        User::factory()->create(['name'=> 'macarrones', 'surname'=> 'addams', 'email'=> 'macarrones@nevermore.com','currentTerm'=> '2022-2023','img'=> 'img/outcast01.PNG', 'isTeacher'=> false]);
-        Grade::factory()->create();
+        User::factory()->create(['name'=> 'Coder', 'surname'=> 'Addams', 'email'=> 'ales@nevermore.com', 'currentTerm'=> '2022-2023', 'img'=> 'img/outcast07.PNG', 'isTeacher'=>true]);
+        /*User::factory()->create(['name'=> 'macarrones', 'surname'=> 'addams', 'email'=> 'macarrones@nevermore.com','currentTerm'=> '2022-2023','img'=> 'img/outcast01.PNG', 'isTeacher'=> false]);*/
 
         User::factory()->create([
             'name'=> 'Wednesday',

@@ -1,26 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <!-- <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">{{ __('Dashboard') }}</div>
-
-                    <div class="card-body">
-                        @if (session('status'))
-                            <div class="alert alert-success" role="alert">
-                                {{ session('status') }}
-                            </div>
-                        @endif
-
-                        {{ __('You are logged in!') }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     @guest
 
         <div class="container">
@@ -99,7 +79,7 @@
 
     @if(Auth::check())
         @if(Auth::check() && Auth::user()->isTeacher)
-        <a href="{{ route('register') }}" class="btn btn-primary">Register a new user</a>
+        <a href="{{ route('register') }}" class="btn btn-primary">Register a new student</a>
         <button class="createButton">
             <a href="{{ route('createGrade') }}" style="text-decoration:none">
                 <div class="textCreateButton"> NEW GRADE </div>
@@ -108,94 +88,177 @@
         @endif
         @foreach ($grades as $grade)
 
-            <div>
-                <h1>Maths</h1>
-                <ul>
-                    <li>{{ $grade->maths1 }}</li>
-                    <li>{{ $grade->maths2 }}</li>
-                    <li>{{ $grade->maths3 }}</li>
-                    <li>{{ $grade->maths4 }}</li>
-                    <li>{{ $grade->maths5 }}</li>
-                    <li>{{ $grade->maths6 }}</li>
-                    <li>{{ $grade->maths7 }}</li>
-                    <li>{{ $grade->maths8 }}</li>
-                    <li>{{ $grade->maths9 }}</li>
-                </ul>
-            </div>
-            
-            <div>
-                <h1>History</h1>
-                <ul>
-                    <li>{{ $grade->history1 }}</li>
-                    <li>{{ $grade->history2 }}</li>
-                    <li>{{ $grade->history3 }}</li>
-                    <li>{{ $grade->history4 }}</li>
-                    <li>{{ $grade->history5 }}</li>
-                    <li>{{ $grade->history6 }}</li>
-                    <li>{{ $grade->history7 }}</li>
-                    <li>{{ $grade->history8 }}</li>
-                    <li>{{ $grade->history9 }}</li>
-                </ul>
-            </div>
+        <div class="gradeContainerShow">
+                        <div class="gradeStudent">
+                            <div class="studentPortrait"><img src="../{{ $grade->user->img}}" alt="portrait of {{ $grade->user->name}} {{ $grade->user->surname}}"></div>
+                            <p>{{ $grade->user_id }}.{{ $grade->user->name}} {{ $grade->user->surname}}</p>
+                        </div>
+                        <h2>Maths</h2>
+                        <div class="gradeInfoBoxShow">
 
-            <div>
-                <h1>Geography</h1>
-                <ul>
-                    <li>{{ $grade->geography1 }}</li>
-                    <li>{{ $grade->geography2 }}</li>
-                    <li>{{ $grade->geography3 }}</li>
-                    <li>{{ $grade->geography4 }}</li>
-                    <li>{{ $grade->geography5 }}</li>
-                    <li>{{ $grade->geography6 }}</li>
-                    <li>{{ $grade->geography7 }}</li>
-                    <li>{{ $grade->geography8 }}</li>
-                    <li>{{ $grade->geography9 }}</li>
-                </ul>
-            </div>
+                            <div class="gradeTrimestralShow">
+                            <h3>First Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->maths1 }}</li>
+                                    <li>{{ $grade->maths2 }}</li>
+                                    <li>{{ $grade->maths3 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Second Trimester</h3>    
+                                <ul>
+                                    <li>{{ $grade->maths4 }}</li>
+                                    <li>{{ $grade->maths5 }}</li>
+                                    <li>{{ $grade->maths6 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Third Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->maths7 }}</li>
+                                    <li>{{ $grade->maths8 }}</li>
+                                    <li>{{ $grade->maths9 }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h2>History</h2>
+                        <div class="gradeInfoBoxShow">
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>First Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->history1 }}</li>
+                                    <li>{{ $grade->history2 }}</li>
+                                    <li>{{ $grade->history3 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Second Trimester</h3>    
+                                <ul>
+                                    <li>{{ $grade->history4 }}</li>
+                                    <li>{{ $grade->history5 }}</li>
+                                    <li>{{ $grade->history6 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Third Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->history7 }}</li>
+                                    <li>{{ $grade->history8 }}</li>
+                                    <li>{{ $grade->history9 }}</li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <div>
-                <h1>English</h1>
-                <ul>
-                    <li>{{ $grade->english1 }}</li>
-                    <li>{{ $grade->english2 }}</li>
-                    <li>{{ $grade->english3 }}</li>
-                    <li>{{ $grade->english4 }}</li>
-                    <li>{{ $grade->english5 }}</li>
-                    <li>{{ $grade->english6 }}</li>
-                    <li>{{ $grade->english7 }}</li>
-                    <li>{{ $grade->english8 }}</li>
-                    <li>{{ $grade->english9 }}</li>
-                </ul>
-            </div>
+                        <h2>Geography</h2>
+                        <div class="gradeInfoBoxShow">
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>First Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->geography1 }}</li>
+                                    <li>{{ $grade->geography2 }}</li>
+                                    <li>{{ $grade->geography3 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Second Trimester</h3>    
+                                <ul>
+                                    <li>{{ $grade->geography4 }}</li>
+                                    <li>{{ $grade->geography5 }}</li>
+                                    <li>{{ $grade->geography6 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Third Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->geography7 }}</li>
+                                    <li>{{ $grade->geography8 }}</li>
+                                    <li>{{ $grade->geography9 }}</li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <div>
-                <h1>Literature</h1>
-                <ul>
-                    <li>{{ $grade->literature1 }}</li>
-                    <li>{{ $grade->literature2 }}</li>
-                    <li>{{ $grade->literature3 }}</li>
-                    <li>{{ $grade->literature4 }}</li>
-                    <li>{{ $grade->literature5 }}</li>
-                    <li>{{ $grade->literature6 }}</li>
-                    <li>{{ $grade->literature7 }}</li>
-                    <li>{{ $grade->literature8 }}</li>
-                    <li>{{ $grade->literature9 }}</li>
-                </ul>
-            </div>
+                        <h2>English</h2>
+                        <div class="gradeInfoBoxShow">
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>First Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->english1 }}</li>
+                                    <li>{{ $grade->english2 }}</li>
+                                    <li>{{ $grade->english3 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Second Trimester</h3>    
+                                <ul>
+                                    <li>{{ $grade->english4 }}</li>
+                                    <li>{{ $grade->english5 }}</li>
+                                    <li>{{ $grade->english6 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Third Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->english7 }}</li>
+                                    <li>{{ $grade->english8 }}</li>
+                                    <li>{{ $grade->english9 }}</li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <div><p>{{ $grade->user_id }}</p></div>
+                        <h2>Literature</h2>
+                        <div class="gradeInfoBoxShow">
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>First Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->literature1 }}</li>
+                                    <li>{{ $grade->literature2 }}</li>
+                                    <li>{{ $grade->literature3 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Second Trimester</h3>    
+                                <ul>
+                                    <li>{{ $grade->literature4 }}</li>
+                                    <li>{{ $grade->literature5 }}</li>
+                                    <li>{{ $grade->literature6 }}</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="gradeTrimestralShow">
+                            <h3>Third Trimester</h3>
+                                <ul>
+                                    <li>{{ $grade->literature7 }}</li>
+                                    <li>{{ $grade->literature8 }}</li>
+                                    <li>{{ $grade->literature9 }}</li>
+                                </ul>
+                            </div>
+                        </div>
 
-            <form action="{{ route('deleteGrade', ['id'=> $grade->id]) }}" method="post">
-                @method('delete')
-                @csrf 
-                @if(Auth::check() && Auth::user()->isTeacher)
-                <button type="submit" class="bt-adm m-1 d-flex justify-content-center align-items-center" onclick="return confirm('Are you sure you want to delete this Grade? {{ $grade->name }} - ID {{ $grade->id }}')">Remove </button>
-                @endif
-                @if(Auth::check() && Auth::user()->isTeacher)
-                <a href="{{ route('editGrade', ['id' => $grade->id]) }}">Edit</a>
-                @endif
-                <a href="{{ route('showGrade', ['id' => $grade->id]) }}">Show</a>
-            </form>
+                        <form action="{{ route('deleteGrade', ['id'=> $grade->id]) }}" method="post">
+                            @method('delete')
+                            @csrf 
+                            @if(Auth::check() && Auth::user()->isTeacher)
+                            <button type="submit" class="bt-adm m-1 d-flex justify-content-center align-items-center" onclick="return confirm('Are you sure you want to delete this Grade? {{ $grade->name }} - ID {{ $grade->id }}')">Remove </button>
+                            @endif
+                            @if(Auth::check() && Auth::user()->isTeacher)
+                            <a href="{{ route('editGrade', ['id' => $grade->id]) }}">Edit</a>
+                            @endif
+                            <a href="{{ route('showGrade', ['id' => $grade->id]) }}">Show</a>
+                        </form>
+                    </div>
         @endforeach
     @endif
 
