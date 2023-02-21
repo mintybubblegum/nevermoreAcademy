@@ -61,3 +61,24 @@
 .gradeTrimestralShow ul li {
     padding: 0 15px;
 }
+
+.buttonCancelBox {
+    text-align: center;
+}
+
+form button, form a, .buttonCancelBox a {
+    margin-top: 15px;
+    border-radius: 20px;
+    border:1px solid transparent;
+    padding: 2px 25px;
+    background-color: #EAA41C;
+    color: #180030 !important;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+form button:hover, form a:hover, .buttonCancelBox a:hover {
+    border:1px solid #EAA41C;
+    background-color: transparent;
+    color: #EAA41C;
+}
