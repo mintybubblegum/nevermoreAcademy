@@ -38,7 +38,7 @@
 - [Sandra León](https://github.com/sandraldr27) - Developer
 
 
-<h2>4. Project Demo (Preview - In Develpoment)</h2>
+<h2>4. Project Demo</h2>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
 <img style="width:550px; height:380px; margin:12px" src="https://user-images.githubusercontent.com/116546588/220195272-91a02282-4e7e-4d53-88c0-8fc9cfee0e0d.PNG" alt="Preliminary project demo"/>
 </div>
